@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4839239238234430}
   - component: {fileID: 114547847950520744}
-  - component: {fileID: 114278739450355410}
   m_Layer: 0
   m_Name: SyncIdentity
   m_TagString: Untagged
@@ -41,23 +40,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114278739450355410
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1099470328854332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3664ead50945787459b77890b0767da1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LastSendTime: 0
-  m_SyncVarGuard: 0
-  m_MyView: {fileID: 0}
-  sPosition: {x: 0, y: 0, z: 0}
-  sRotation: {x: 0, y: 0, z: 0, w: 0}
-  sScale: {x: 0, y: 0, z: 0}
 --- !u!114 &114547847950520744
 MonoBehaviour:
   m_ObjectHideFlags: 1

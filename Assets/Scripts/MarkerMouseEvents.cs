@@ -7,7 +7,6 @@ public class MarkerMouseEvents : MonoBehaviour {
 	[Range(1.0f, 2.0f)]
 	public float maxScaleFactor = 1.2f;
 
-	private float heldTime = 0.0f;
 	private float curScaleFactor = 1.0f;
 	private Vector3 initScale;
 
@@ -16,11 +15,6 @@ public class MarkerMouseEvents : MonoBehaviour {
 
 	void Start() {
 		initScale = transform.localScale;
-	}
-
-	void Update() {
-		//if (Input.GetMouseButton(0)) 
-			//heldTime += Time.deltaTime;
 	}
 
 	void OnMouseEnter() {
@@ -38,10 +32,7 @@ public class MarkerMouseEvents : MonoBehaviour {
 	}
 
 	void OnMouseUp() {
-		//if (heldTime < 2.0f)
-			MarkerManager.SetMarkerActive(transform.parent.gameObject);
-		//else
-			//MarkerManager.DestroyMarker(transform.parent.gameObject);
+		MarkerManager.SetMarkerActive(transform.parent.gameObject);
 	}
 
 	IEnumerator ScaleUp() {
