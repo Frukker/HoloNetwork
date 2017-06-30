@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>Hololens_Network</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\larsa_000\Desktop\Unity Git\Neuer Ordner\Hololens_Network\app\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\larsa_000\Desktop\Unity Git\Neuer Ordner\Hololens_Network\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>

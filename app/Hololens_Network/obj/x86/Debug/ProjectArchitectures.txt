@@ -1,0 +1,4 @@
+C:\Users\larsa_000\Desktop\Unity Git\Neuer Ordner\Hololens_Network\app\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\larsa_000\Desktop\Unity Git\Neuer Ordner\Hololens_Network\app\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\larsa_000\Desktop\Unity Git\Neuer Ordner\Hololens_Network\app\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\larsa_000\Desktop\Unity Git\Neuer Ordner\Hololens_Network\app\Hololens_Network\Hololens_Network.csproj;x86
