@@ -21,6 +21,7 @@ public class SyncManager : NetworkBehaviour
     public SyncBrushList Brushes = new SyncBrushList();
 
     private TexturePainterLight clientPainter;
+    private const float scaleFactor = 5.0f;
 
     //Marker properties
     public struct SerializableMarker
@@ -61,7 +62,7 @@ public class SyncManager : NetworkBehaviour
 	    {
             transform.parent.localPosition = sPosition;
             transform.parent.localRotation = sRotation;
-            transform.parent.localScale = sScale;
+            transform.parent.localScale = sScale / scaleFactor;
         }
     }
 
@@ -128,7 +129,7 @@ public class SyncManager : NetworkBehaviour
         else if (op == SyncList<SerializableMarker>.Operation.OP_ADD)
         {
             SerializableMarker m = Markers.Last();
-            MarkerManager.CreateMarker(transform.parent, m.position, m.rotation, m.color);
+            MarkerManager.CreateMarker(transform.parent, m.position / scaleFactor, m.rotation, m.color);
         }
         else if (op == SyncList<SerializableMarker>.Operation.OP_REMOVEAT)
         {
